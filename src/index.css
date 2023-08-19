@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Nav project */
+.cart-container{
+    margin-top: 100px;
+}
+/* #Showmodel{
+    margin-top: 100px;
+} */
+#model-error{
+    width: 1000px;
+    height: auto;
+    margin: 5% 13%;
+}
+.nav-div{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 1px 2px gray;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#logo{
+    font-weight: 700;
+    font-size: 27px;
+    color: #f57224;
+    line-height: 30px;
+}
+.nav-link , .nav-logo{
+    width: 50%;
+  
+}
+.nav-link{
+    display: flex;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+ul{
+    list-style: none;
+}
+.Nlink1{
+    width: 40%;
+    text-align: right;
+    margin: 1px 1px -10px -17px;
+}
+.Nlink{
+    width: 60%;
+    text-align: right;
+}
+.svg-inline--fa{
+    color: #222;
+    font-size: 26px;
+    display: inline-block;
+    margin-left: 0px;
+}
+.cartcount{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f57224;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 65px;
+} 
+hr{
+    height: 4px;
+    width: 120px;
+    background-color: #000;
+}
+
+/* Banner project */
+.container{
+    width: 100%;
+    padding: 0px 100px;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background: url("https://images.pexels.com/photos/2622170/pexels-photo-2622170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.header-Text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+.header-Text h1{
+    font-size: 35px;
+}
+.header-Text p{
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.shopp{font-size: 18px;}
+
+/* products style */
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    padding: 0 10px;
+    margin: 15px 0;
+}
+.fade:not(.show){
+    opacity: 1;
+}
+
+.cart-container{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.cart-detailes{
+    width: 75%;
+    border: 3px solid #ccc0;
+    box-shadow: 5px 5px 5px #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+}
+.cart-image{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cart-image img{
+    width: 100%;
+    height: 100%;
+}
+.cart-product-name{
+    width: 170px;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.cart-product-price{
+    display: inline-block;
+    width: 130px;
+    padding: 0 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #f57224;
+}
+.inc{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #f57224;
+    font-size: 15px;
+    color: #f57224;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+}
+.product-quantity{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 15px;
+    width: 80px;
+    text-align: center;
+}
+.minus{
+    display: inline-block;
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px;
+    text-align: center;
+    outline: 1px solid rgb(187, 58, 58);
+    font-size: 15px;
+    color: rgb(187, 58, 58);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.product-total-price{
+    display: inline-block;
+    width: 170px;
+    padding: 0 15px;
+    text-align: center;
+
+}
+.delet-product{
+    border: none;
+    color: rgb(187, 58, 58);
+    cursor: pointer;
+}
+.cart-error{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+#cart{
+    margin: 100px 10px;
+}
+.load{
+    display: none;
+}
+#loader{
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://learn.sha.edu.eg/theme/edumy/images/preloader.gif) center no-repeat #fff;
+}
+#oops{
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
